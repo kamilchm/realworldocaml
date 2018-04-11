@@ -1,0 +1,8 @@
+(jbuild_version 1)
+
+(executables
+  ((names (md5 cal))
+   (libraries (core cryptokit))
+   (preprocess (pps (ppx_jane)))
+  )
+)

@@ -1,5 +1,5 @@
-(executable
-  ((name echo)
-   (libraries (core async))
+(executables
+  ((names (echo search))
+   (libraries (core async cohttp.async yojson textwrap))
   )
 )

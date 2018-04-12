@@ -1,0 +1,5 @@
+(executable
+  ((name echo)
+   (libraries (core async))
+  )
+)

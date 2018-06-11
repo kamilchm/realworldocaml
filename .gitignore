@@ -2,3 +2,7 @@ _build/
 .merlin
 *_t.ml*
 *_j.ml*
+*.o
+*.cmi
+*.cmo
+*.cmx
